@@ -1,4 +1,4 @@
-package fr.pierre.medhead.entity;
+package fr.pierre.medhead.model.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

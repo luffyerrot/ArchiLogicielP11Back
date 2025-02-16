@@ -1,4 +1,4 @@
-package fr.pierre.medhead.dto;
+package fr.pierre.medhead.model.dto;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -12,7 +12,7 @@ import java.time.LocalDate;
 public class SpecialiteDto implements Serializable {
 
     @Serial
-    private static final long serialVersionUID = -6081714706246172054L;
+    private static final long serialVersionUID = 693955498665366871L;
 
     private int id;
     private String nom;

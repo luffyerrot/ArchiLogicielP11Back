@@ -1,9 +1,9 @@
 package fr.pierre.medhead.mapper;
 
-import fr.pierre.medhead.dto.SpecialiteDto;
-import fr.pierre.medhead.entity.SpecialiteEntity;
+import fr.pierre.medhead.model.dto.SpecialiteDto;
+import fr.pierre.medhead.model.entity.SpecialiteEntity;
 
-public class SpecialiteMapping {
+public class SpecialiteMapper {
 
     public static SpecialiteDto mapSpecialiteEntityToDto(SpecialiteEntity specialiteEntity) {
         return SpecialiteDto.builder()
