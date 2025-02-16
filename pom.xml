@@ -19,7 +19,7 @@
 
 		<sonar.organization>luffyerrot-1</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.exclusions>**/model/*.java, *.sql</sonar.exclusions>
+		<sonar.exclusions>**/model/dto/*.java,**/model/entity/*.java,*.sql</sonar.exclusions>
 		<sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/report-aggregate/target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 	</properties>
 	<dependencies>
