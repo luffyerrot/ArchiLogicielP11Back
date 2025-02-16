@@ -14,6 +14,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.web.client.RestTemplate;
 
@@ -23,6 +24,7 @@ import java.util.Optional;
 
 @SpringBootTest
 @ExtendWith(SpringExtension.class)
+@ActiveProfiles("test")
 public class SpecialiteServiceTest {
 
     @Mock

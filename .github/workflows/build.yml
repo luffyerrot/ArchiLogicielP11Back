@@ -20,7 +20,7 @@ jobs:
           distribution: 'zulu' # Alternative distribution options are available.
 
       - name: Unit Tests
-        run: mvn -B test
+        run: mvn -B test --file pom.xml
 
       - name: Cache SonarQube packages
         uses: actions/cache@v4
